@@ -27,9 +27,8 @@
             android:ems="10"
             android:layout_alignParentEnd="true"
             android:layout_alignParentTop="true"
-            android:layout_marginEnd="0dp"
             android:id="@+id/etUserMessage"
-            android:layout_marginTop="266dp"
+            android:layout_marginTop="238dp"
             android:hint="@string/enter_your_message"
             android:autofillHints=""
             android:inputType=""/>
@@ -39,20 +38,29 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_marginStart="0dp"
             android:layout_alignParentBottom="true"
             android:id="@+id/btnSendMsgToNextActivity"
-            android:layout_marginBottom="202dp"/>
+            android:layout_marginBottom="250dp"/>
 
     <Button
             android:text="@string/share_to_other_apps"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_marginStart="0dp"
             android:layout_alignParentBottom="true"
             android:id="@+id/btnShareToOtherApps"
-            android:layout_marginBottom="75dp"
+            android:layout_marginBottom="201dp"
+            android:layout_alignParentEnd="true"/>
+
+    <Button
+            android:text="Recycler View Demo"
+            android:layout_width="218dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="91dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/btnRecyclerViewDemo"
+            android:layout_marginBottom="115dp"
             android:layout_alignParentEnd="true"
-            android:layout_marginEnd="0dp"/>
+            android:layout_marginEnd="93dp"/>
 </RelativeLayout>
